@@ -5,6 +5,15 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARCv4.Application", "ARCv4\ARCv4.Application.csproj", "{D2662CCB-13CD-40FC-8C08-443B38F0BEA9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF978DEA-3EE9-4696-9595-5E863D07CEF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7FB2DD31-71DE-4373-9998-79F9C2D80259}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external-files", "external-files", "{8EB2C592-15B0-4B20-84A2-98B66B20B2B8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +27,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2662CCB-13CD-40FC-8C08-443B38F0BEA9} = {BF978DEA-3EE9-4696-9595-5E863D07CEF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E8186B-74E6-4A15-84A5-D919F15A0FC7}
